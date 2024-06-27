@@ -1,0 +1,113 @@
+.mycalc {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+.all-btn {
+    display: flex;
+}
+
+.all-btn-numbers {
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+
+.all-btn-signs {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-btn-numbers button {
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-btn-signs button{
+    background-color: dimgray;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: 25px;
+    border-radius: 50px;
+    width: 50px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.all-btn-signs button:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 20px 5px lightcyan;
+}
+.all-btn-numbers button:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 20px 5px lightcyan;
+}
+.btn-extra{
+    display:flex;
+}
+.btn-extra button{
+    background-color:dimgray;
+    color:black;
+}
+.btn-extra button:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 20px 5px lightcyan;
+}
+.btn-clear-equals{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.btn-clear-equals button{
+    width:120px;
+    font-size: 30px;
+    padding: 5px;
+    margin:10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+#clear{
+    color:blue;
+    background-color:dimgray;
+}
+#equals{
+    color:blue;
+    background-color:dimgray;
+}
+#clear:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 20px 5px lightcyan;
+}
+#equals:hover{
+    cursor:pointer;
+    box-shadow: 0px 0px 20px 5px lightcyan;
+}
+input {
+    width:80%;
+    margin:10px 0px;
+    font-size: 20px;
+    padding:10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border:1px solid grey;
+}
+input:focus{
+    outline:none;
+    border: 1px solid grey;
+}
